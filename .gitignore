@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller 打包产物（build.py 生成）
+build/
+dist/
+*.spec
+*.exe
+
+# 测试视频与中间数据（体积大，不入库）
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.h264
+*.yuv
+*.json.bak
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
