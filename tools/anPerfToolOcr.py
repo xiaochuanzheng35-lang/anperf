@@ -1,6 +1,6 @@
 import requests
 
-g_ocr_url = "http://10.80.59.138:8089/ocr"  # 默认使用ocr1
+g_ocr_url = "http://127.0.0.1:8089/ocr"  # 默认本地 OCR 服务；实际地址由用例配置的 ocr_srv_url 经 init() 注入
 
 def proc(encoded_image, debug_level=0):
     global g_ocr_url
